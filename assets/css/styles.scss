@@ -1,3 +1,28 @@
 body {
   font-family: sans-serif;
 }
+
+header {
+  color: white;
+  background: darkgray;
+}
+
+// ------ Contact Page
+
+.contact-entry {
+  div {
+    display: inline-block;
+  }
+  .phone-icon {
+    float: right;
+  }
+}
+
+// ------ Dial Page
+
+.dialpad {
+  div {
+    float: left;
+    width: (100%/3);
+  }
+}

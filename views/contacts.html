@@ -1,3 +1,13 @@
-<div>your contacts</div>
+<a href = "#/call">Dial</a>
 
-{{test}}
+<input type="text"></input>
+
+<div class = "contact-wrapper">
+  <div ng-repeat = "contact in contacts | orderBy:'first'">
+    <div class = "contact-entry">
+      <div>ICON</div>
+      <div class = "full-name">{{contact.first}} {{contact.last}}</div>
+      <div class = "phone-icon">PHONE</div>
+    </div>
+  </div>
+</div>

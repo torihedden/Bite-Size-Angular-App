@@ -1,4 +1,17 @@
 body {
   font-family: sans-serif; }
 
+header {
+  color: white;
+  background: darkgray; }
+
+.contact-entry div {
+  display: inline-block; }
+.contact-entry .phone-icon {
+  float: right; }
+
+.dialpad div {
+  float: left;
+  width: 33.33333%; }
+
 /*# sourceMappingURL=styles.css.map */
