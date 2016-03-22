@@ -4,13 +4,20 @@
     <meta charset="utf-8">
     <title>Phone App</title>
     <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,300' rel='stylesheet' type='text/css'>
     <link type="text/css" rel="stylesheet" href="assets/css/styles.css">
 
   </head>
 
   <body ng-app="phoneApp">
 
-    <header>Persistant header here</header>
+    <header>
+      <p>Phone</p>
+      <div><a href = "#/call">Dial</a></div>
+      <div><a href = "#/home">Contacts</a></div>
+      <div><a href = "#/favorites">Favorites</a></div>
+    </header>
 
     <div>
       <ng-view></ng-view>

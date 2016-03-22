@@ -1,18 +1,18 @@
-<a href = "#/home">Contacts</a>
 
-<div class = "dialed-number"></div>
+
+<div class = "dialed-number">{{dialedNumber}}</div>
 
 <div class = "dialpad">
-  <div>1</div>
-  <div>2</div>
-  <div>3</div>
-  <div>4</div>
-  <div>5</div>
-  <div>6</div>
-  <div>7</div>
-  <div>8</div>
-  <div>9</div>
-  <div>*</div>
-  <div>0</div>
-  <div>#</div>
+  <div ng-click="dialedNumber= dialedNumber + '1'">1</div>
+  <div ng-click="dialedNumber= dialedNumber + '2'">2</div>
+  <div ng-click="dialedNumber= dialedNumber + '3'">3</div>
+  <div ng-click="dialedNumber= dialedNumber + '4'">4</div>
+  <div ng-click="dialedNumber= dialedNumber + '5'">5</div>
+  <div ng-click="dialedNumber= dialedNumber + '6'">6</div>
+  <div ng-click="dialedNumber= dialedNumber + '7'">7</div>
+  <div ng-click="dialedNumber= dialedNumber + '8'">8</div>
+  <div ng-click="dialedNumber= dialedNumber + '9'">9</div>
+  <div ng-click="dialedNumber= dialedNumber + '*'">*</div>
+  <div ng-click="dialedNumber= dialedNumber + '0'">0</div>
+  <div ng-click="dialedNumber= dialedNumber + '#'">#</div>
 </div>

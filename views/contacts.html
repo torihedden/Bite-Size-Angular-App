@@ -1,13 +1,15 @@
-<a href = "#/call">Dial</a>
 
-<input type="text"></input>
+
+<input type="text" placeholder="Search contacts" class = "search-contacts" ng-model = "name"></input>
+
+<div>{{5}} found</div>
 
 <div class = "contact-wrapper">
-  <div ng-repeat = "contact in contacts | orderBy:'first'">
+  <div ng-repeat = "contact in contacts | orderBy:'first' | filter:name">
     <div class = "contact-entry">
-      <div>ICON</div>
+      <div class = "user-icon"><i class="fa fa-user"></i></div>
       <div class = "full-name">{{contact.first}} {{contact.last}}</div>
-      <div class = "phone-icon">PHONE</div>
+      <div class = "phone-icon"><i class="fa fa-phone"></i></div>
     </div>
   </div>
 </div>
