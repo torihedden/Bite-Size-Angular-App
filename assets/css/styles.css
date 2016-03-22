@@ -50,6 +50,19 @@ header {
   padding: 40px 20px;
   font-size: 2em;
   text-align: center; }
+  .dialed-number .caret {
+    width: 0;
+    height: 0;
+    border-top: 18px solid transparent;
+    border-bottom: 18px solid transparent;
+    border-right: 18px solid black;
+    float: right; }
+  .dialed-number .backspace {
+    float: right;
+    background-color: black; }
+    .dialed-number .backspace i {
+      color: white;
+      padding: 2px; }
 
 .dialpad {
   color: #008080;

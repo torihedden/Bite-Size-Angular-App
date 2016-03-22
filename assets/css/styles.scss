@@ -71,6 +71,22 @@ header {
   padding: 40px 20px;
   font-size: 2em;
   text-align: center;
+  .caret {
+    width: 0;
+    height: 0;
+    border-top: 18px solid transparent;
+	  border-bottom: 18px solid transparent;
+	  border-right: 18px solid black;
+    float: right;
+  }
+  .backspace {
+    float: right;
+    background-color: black;
+    i {
+      color: white;
+      padding: 2px;
+    }
+  }
 }
 
 .dialpad {

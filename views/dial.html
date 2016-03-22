@@ -1,6 +1,12 @@
 
 
-<div class = "dialed-number">{{dialedNumber}}</div>
+<div class = "dialed-number">{{dialedNumber}}
+
+  <div class = "delete-button" ng-click = "dialedNumber = ''">
+    <div class = "backspace"><i class="fa fa-times"></i></div>
+    <div class = "caret"></div>
+  </div>
+</div>
 
 <div class = "dialpad">
   <div ng-click="dialedNumber= dialedNumber + '1'">1</div>
