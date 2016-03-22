@@ -17,8 +17,14 @@ phoneApp.controller('ContactController', ['$scope', function($scope){
     {first: 'Ian', last: 'Rose', number: '919-123-8787'},
     {first: 'Ameer', last: 'Armaly', number: '404-222-4343'},
     {first: 'Carmela', last: 'Epright', number: '919-555-2300'}
-
   ];
+
+  $scope.searchResults = $(".contact-entry").length
+
+  $scope.onSearch = function(){
+    $scope.searchResults = $(".contact-entry").length;
+  }
+
 
 
 //add a new contact to the list
