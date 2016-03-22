@@ -1,0 +1,6 @@
+<div>Here are your favorites.</div>
+
+<div ng-repeat="contact in contacts | orderBy: 'favorite':true">
+  <div>{{contact.first}} {{contact.last}}</div>
+  <div>{{contact.number}}</div>
+</div>

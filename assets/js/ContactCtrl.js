@@ -1,5 +1,5 @@
 phoneApp.controller('ContactController', ['$scope', function($scope){
-  $scope.test = "contact controller on board!"
+  
 
   $scope.contacts = [
     {first: 'Tori', last: 'Hedden', number: '678-901-2345', favorite: true},
@@ -19,16 +19,6 @@ phoneApp.controller('ContactController', ['$scope', function($scope){
     {first: 'Carmela', last: 'Epright', number: '919-555-2300', favorite: true}
   ];
 
-  $scope.searchResults = $(".contact-entry").length
-
-  $scope.onSearch = function(){
-    $scope.searchResults = $(".contact-entry").length;
-  }
-
-
-
-//add a new contact to the list
-// $scope.newContact = function()
 
 
 }]);

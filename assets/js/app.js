@@ -13,8 +13,8 @@ $routeProvider
   })
 
   .when('/favorites', {
-    templateUrl: 'favorites.html',
-    controller: 'FavoritesController'
+    templateUrl: 'views/favorites.html',
+    controller: 'ContactController'
   })
 
 });
