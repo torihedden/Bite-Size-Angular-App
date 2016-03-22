@@ -5,6 +5,9 @@ body {
 a {
   text-decoration: none; }
 
+input:focus {
+  outline: none; }
+
 header {
   color: white;
   background: #008080;

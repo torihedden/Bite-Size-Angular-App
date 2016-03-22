@@ -7,9 +7,16 @@ body {
   font-size: 1em;
 }
 
-a {
-  text-decoration: none;
-}
+a {text-decoration: none;}
+
+input:focus {outline: none;}
+
+// .active {
+//   color: $main-color;
+//   background: white;
+//   border-radius: 40%;
+//   padding: 10%;
+// }
 
 header {
   color: white;
@@ -36,7 +43,6 @@ header {
   font-size: 1em;
   padding: 5px;
   width: 90%;
-
   margin-right: 5%;
 }
 

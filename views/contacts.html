@@ -2,7 +2,7 @@
 
 <input type="text" placeholder="Search contacts" class = "search-contacts" ng-model = "name" ng-change = "onSearch()"></input>
 
-<div>{{filtered.length}} found</div>
+<div ng-hide = "filtered.length == contacts.length">{{filtered.length}} found</div>
 
 <div class = "contact-wrapper">
   <div ng-repeat = "contact in contacts | orderBy:'first' | filter:name as filtered">

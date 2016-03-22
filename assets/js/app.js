@@ -12,4 +12,9 @@ $routeProvider
     controller: 'DialController'
   })
 
+  .when('/favorites', {
+    templateUrl: 'favorites.html',
+    controller: 'FavoritesController'
+  })
+
 });
